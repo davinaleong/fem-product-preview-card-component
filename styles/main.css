@@ -21,9 +21,8 @@
 /** Root **/
 :root {
   --clr-primary-100: hsl(0, 0%, 100%);
-  --clr-primary-700: hsl(228, 12%, 48%);
-  --clr-primary-800: hsl(212, 21%, 14%);
-  --clr-primary-900: hsl(237, 12%, 33%);
+  --clr-primary-800: hsl(228, 12%, 48%);
+  --clr-primary-900: hsl(212, 21%, 14%);
 
   --clr-secondary-400: hsl(158, 36%, 37%);
 
@@ -369,9 +368,6 @@ a:where(:hover, :focus, :focus-visible) {
 .text-primary-100 {
   color: var(--clr-primary-100);
 }
-.text-primary-700 {
-  color: var(--clr-primary-700);
-}
 .text-primary-800 {
   color: var(--clr-primary-800);
 }
@@ -421,9 +417,6 @@ a:where(:hover, :focus, :focus-visible) {
 /** Utility - Background Colours **/
 .bg-primary-100 {
   background-color: var(--clr-primary-100);
-}
-.bg-primary-700 {
-  background-color: var(--clr-primary-700);
 }
 .bg-primary-800 {
   background-color: var(--clr-primary-800);
