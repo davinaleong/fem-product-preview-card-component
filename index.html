@@ -33,28 +33,55 @@
       }
     </style>
   </head>
-  <body class="bg-accent-400">
-    <div class="swatches">
-      <div class="bg-primary-100">&nbsp;</div>
-      <div class="bg-primary-800">&nbsp;</div>
-      <div class="bg-primary-900">&nbsp;</div>
+  <body class="bg-accent-400 text-primary-800 p-400">
+    <h1 class="visually-hidden">Product Preview Card Component</h1>
 
-      <div class="bg-secondary-400">&nbsp;</div>
+    <main class="main-grid">
+      <div class="card-grid | br-200 fs-300">
+        <img
+          src="./images/image-product-mobile.jpg"
+          alt="Card Image"
+          class="card-image | display-mobile"
+        />
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="Card Image"
+          class="card-image | display-desktop"
+        />
+        <div class="card-body | bg-grey-100 p-500">
+          <p class="card-subtitle | tt-uppercase ls-600 mb-400">Perfume</p>
+          <h2
+            class="card-title | text-primary-900 ff-heading fs-700 fw-bold mb-400 lh-200"
+          >
+            Gabrielle Essence Eau De Parfum
+          </h2>
+          <p class="mb-400">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="price-flex | mb-400">
+            <div
+              class="current-price | text-secondary-400 ff-heading fs-700 fw-bold lh-200"
+            >
+              $149.99
+            </div>
+            <div class="old-price | td-linethrough">$169.99</div>
+          </div>
+          <div class="button-container">
+            <div class="btn btn-secondary btn-full">
+              <img
+                src="./images/icon-cart.svg"
+                alt="Card Icon"
+                class="btn-icon"
+              />
+              Add to Cart
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-      <div class="bg-accent-400">&nbsp;</div>
-
-      <div class="bg-grey-100">&nbsp;</div>
-      <div class="bg-grey-200">&nbsp;</div>
-      <div class="bg-grey-300">&nbsp;</div>
-      <div class="bg-grey-400">&nbsp;</div>
-      <div class="bg-grey-500">&nbsp;</div>
-      <div class="bg-grey-600">&nbsp;</div>
-      <div class="bg-grey-700">&nbsp;</div>
-      <div class="bg-grey-800">&nbsp;</div>
-      <div class="bg-grey-900">&nbsp;</div>
-    </div>
-
-    <div class="attribution">
+    <div class="attribution | py-400">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
